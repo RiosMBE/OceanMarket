@@ -1,0 +1,640 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial;
+    margin: 2%;
+    border: 10px solid rgb(12, 88, 150);
+    border-radius: 1em;
+    font-size: 30px;
+    
+}
+
+header h1{
+    font-family: Arial;
+    font-size: 60px;
+    color: white;
+    text-shadow: 0px 0px 30px #104074;
+}
+
+
+header{
+    font-family: Arial;
+    height: 500px;
+    padding: 50px;
+    background-color: #acaeb393;
+    text-align: center;
+}
+
+
+
+nav{
+    font-family: Arial;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 29, 29);
+}
+
+nav a:hover{
+    background-color: #2dc8ebe5;
+    color: rgb(0, 0, 0);
+    
+}
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campo2{
+    font-size: 20px;
+}
+
+.pestañaAdmin{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.seccion1{
+    
+    font-size: 10px;
+    font-family: Arial;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.asideServicios{
+    font-family: Arial;
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+aside{
+    font-family: Arial;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+aside h2{
+    font-family: Arial;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px #5378d7;
+}
+
+
+section{
+    font-family: Arial;
+    height: auto;
+    width: 100%;
+    background-color: #6092d7;
+    padding: 20px;
+    text-align: justify;
+}
+
+section h2{
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px #fafafadc;
+}
+
+p{
+    font-family: Arial;
+    margin: 80px;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.p2{
+    font-family: Arial;
+    margin: 80px;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+}
+.p3{
+    font-family: Arial;
+    margin: 80px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+footer{
+    font-family: Arial;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #052e5a93;
+    color: white;
+    text-shadow: 0px 0px 30px #07223f
+}
+
+
+.imagenJuegos{
+    width: 200px;
+    height: 300px;
+    margin: 6px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.imagenServicios{
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+}
+
+.imagenEmpresa{
+    width: 300px;
+    height: 300px;
+    border-radius: 20em;
+    border: 3px solid rgb(83, 138, 186);
+}
+
+
+form{
+    font-family: Arial;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: #cdb0ee;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(19, 19, 18);
+    
+}
+
+form input{
+    font-size: 12px;
+    border-radius: 1em;
+    width: 82%;
+}
+
+section button {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+textarea{
+    font-family: Arial;
+    width: 500px;
+}
+
+section input{
+    font-family: Arial;
+    font-size: 25px;  
+}
+
+section label{
+    font-family: Arial;
+    font-size:25px;
+}
+
+form input{
+    font-family: Arial;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.pestañaAdmin label{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.pestañaAdmin input{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.pestañaAdmin button{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+
+
+img{
+
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.imgLogos{
+    height: 10%;
+    width: 10%;
+}
+.imgInicio{
+    height: 400px;
+    width: 600px;
+    border: 10px solid #f3f33fe5;
+}
+.imgNosotros{
+    height: 250px;
+    width: 400px;
+    border: 10px solid #f3f33fe5;
+}
+
+.imgIconos{
+    height:10%;
+    width: 10%;
+}
+
+
+@media screen and (max-width: 1500px){
+    
+    .imgLogos{
+        width: 70px;
+        height: 70px;
+    }
+    nav, .row{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header{
+        height: 400px;
+    }
+
+    aside{
+        
+        height: 300px;
+        
+    }
+
+    
+textarea{
+    width: auto;
+}
+
+    section{
+        
+        height: 900px;
+    }
+
+    section p{
+        font-size: 20px;
+    }
+
+    .imagenJuegos{
+        height:200px;
+        width: 180px;
+    }
+
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+
+    .imagenEmpresa{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    form{
+        width: 50%;
+        height: 50%;
+    }
+
+
+    
+
+}
+
+
+
+@media screen and (max-width: 970px){
+    
+
+    .imagenEmpresa{
+        width: 165px;
+        height: 165px;
+        
+    }
+    section h1{
+        font-size: 30px;
+    }
+
+    form input{
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    form label{
+        font-size: 20px;
+    }
+    form{
+        width: 90%;
+        
+    }
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+
+}
+
+
+@media screen and (max-width: 900px){
+    .imgLogos{
+        width: 70px;
+        height: 70px;
+    }
+    
+    section p{
+        font-size: 18px;
+    }
+
+    .imagenEmpresa{
+        width: 165px;
+        height: 165px;
+        
+    }
+      form input{
+        margin: 5px;
+        font-size: 25px;
+    }
+
+    section h1{
+        font-size: 25px;
+    }
+    form label{
+        font-size: 25px;
+    }
+}
+
+
+
+@media screen and (max-width: 880px){
+    
+    .imagenJuegos{
+        height: 200px;
+        width: 160px;
+    }
+    section h1{
+        font-size: 20px;
+    }
+
+    form input{
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    form label{
+        font-size: 25px;
+    }
+    
+
+    
+}
+
+
+@media screen and (max-width: 797px){
+    .imgLogos{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .imagenJuegos{
+        height: 200px;
+        width: 150px;
+    }
+
+    section h1{
+        font-size: 25px;
+    }
+
+    form input{
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    form label{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    section p{
+        font-size: 16px;
+    }
+
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+
+    .imagenJuegos{
+        height: 200px;
+        width: 120px;
+    }
+
+    section h1{
+        font-size: 25px;
+    }
+
+    form input{
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    form label{
+        font-size: 25px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 671px){
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+
+    p{
+        margin: 70px;
+    }
+
+    section h1{
+        font-size: 25px;
+    }
+
+    form input{
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    form label{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 630px){
+    .imagenJuegos{
+        height: 200px;
+        width: 110px;
+    }
+
+    p{
+        margin: 70px;
+    }
+
+    section h1{
+        font-size: 20px;
+    }
+
+    form input{
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    form label{
+        font-size: 20px;
+    }
+
+    .campo2{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 590px){
+    .imagenJuegos{
+        height: 200px;
+        width: 100px;
+    }
+
+    p{
+        margin: 60px;
+    }
+}
+
+
+@media screen and (max-width: 548px){
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+
+    .imagenJuegos{
+        height: 200px;
+        width: 90px;
+    }
+
+    p{
+        margin: 50px;
+    }
+}
+
+
+@media screen and (max-width: 535px){
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+   
+    section p{
+        font-size: 15px;
+    }
+    p{
+        
+        margin: 45px;
+    }
+}
+
+
+@media screen and (max-width: 505px){
+    .imagenJuegos{
+        height: 200px;
+        width: 80px;
+    }
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+    .imgLogos{
+        width: 70px;
+        height: 70px;
+    }
+
+    section h2{
+        font-size: 30px;
+    }
+
+    aside h2{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 491px){
+
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+    
+    section h2, aside h2{
+        font-size: 30px;
+    }
+
+    .imgLogos{
+        height: 60px;
+        width: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 370px){
+    .imagenJuegos{
+        height: 110px;
+        width: 80px;
+    }
+
+    .imagenServicios{
+        width: 20%;
+        height: 20%;
+        margin: 5px;
+    }
+    
+
+    section p{
+        font-size: 12px;
+    }
+    
+}

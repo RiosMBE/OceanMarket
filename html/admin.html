@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos2.css">
+    <script src="../js/configuracion.js" type="module"></script>
+    <script src="../js/login.js" type="module"></script>
+    <title>Administrador</title>
+</head>
+<body>
+    <header class="encabezadoAdmin">
+        <center>
+            <img class="imagenEmpresa" src="../img/logo.png">
+        </center>
+        <h1>Nuestros Productos (Registro)</h1>
+    </header>
+    <div class="row">
+        <section class="pestañaAdmin">
+            <h2>Productos</h2>
+            <br/>
+            <center>
+                <div class="formularioProductos">
+                    <br/>
+                    <label for="">Código:</label>
+                    <br/>
+                    <input type="text" id="codigo" name="codigo" required="true">
+                    <br/>
+                    <br/>
+                    <label for="">Nombre del producto: </label>
+                    <br/>
+                    <input type="text" id="nombreProducto" name="nombreProducto" required="true">
+                    <br/>
+                    <br/>
+                    <label for="">Descripción: </label>
+                    <br/>
+                    <input type="text" id="descripcion" name="descripcion" required="true">
+                    <br/>
+                    <br/>
+                    <label for="">Precio: </label>
+                    <br/>
+                    <input type="text" id="precio" name="precio" required="true">
+                    <br/>
+                    <br/>
+                    <label for="">Estado: </label>
+                    <br/>
+                    <input type="number" min="0" max="1" id="estado" name="estado" required="true">
+                    <br/>
+                    <br/>
+                    <label for="">Nombre de la imagen: </label>
+                    <br/>
+                    <input type="text" name="imgNombre" id="imgNombre" size="20" readonly="true">
+                    <br/>
+                    <label for="">URL: </label>
+                    <br/>
+                    <input type="text" name="url" id="url" size="20" readonly="true">
+                    <br>
+                    <br>
+                    <label for="">Seleccionar la imagen jpg,jpeg,png </label>
+                    <input type="file" name="archivo" id="archivo" accept=".jpg, .jpeg, .png">
+                    <br/>
+                    <br/>
+                    <img id="imagen1" class="imagenJuegos" alt="Imagen">
+                    <br/>
+                    <br/>
+                </div>
+            </center>
+            <center>
+                <br/>
+                <button id="btnInsertar">Insertar producto</button>
+                <button id="btnBuscar">Buscar ID</button>
+                <button id="btnActualizar">Actualizar un producto</button>
+                <button id="btnTodos">Mostrar todos productos</button>
+                <button id="btnLimpiar">Limpiar</button>
+                <button id="btnDesconectar">Desconectar</button>
+                <br/>
+                <br/>
+                <hr/>
+                <br/>
+                <h2>Lista de productos activos(0) e inactivos(1)</h2>
+                <div id="lista" class="seccion1"></div>
+            </center>
+        </section>
+    </div>
+</body>
+</html>

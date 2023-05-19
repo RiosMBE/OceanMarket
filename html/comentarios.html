@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Comentarios</title>
+</head>
+<body>
+    <header>
+        <center>
+            <img src="../img/logo.png" class="imagenEmpresa">
+        </center>
+        <h1>Comentarios</h1>
+    </header>
+
+    <nav>
+        <a href="../html/inicio.html">Inicio</a>
+        <a href="../html/nosotros.html">Nosotros</a>
+        <a href="../html/productos.html">Productos</a>
+        <a href="../html/comentarios.html">Comentarios</a>
+    </nav>
+
+    <div class="row">
+        <aside>
+            <h2>¡Tu opinión nos importa!</h2>
+            <h2>Por favor, llene el siguiente formulario: </h2>
+        </aside>
+
+        <section>
+            <br>
+            <center>
+                <form action="2020030737@upsin.edu.mx" method="get">
+                    <br>
+                    <b>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" required="true" placeholder="Ingrese su nombre">
+                        <br>
+                        <br>
+                        <label for="Correo">Correo:</label>
+                        <input type="email" nombre="correo" id="correo" required="true" pattern=".+@gmail\.com" placeholder="Ingrese su correo">
+                        <br>
+                        <br>
+                        <label for="Fecha Nac">Fecha:</label>
+                        <input type="date" name="fecnac" id="fecnac" min="1900-01-01" max="2050-12-31">
+                        <br>
+                        <p style="background-color: rgb(218, 185, 144);">
+                            <h1>Comentarios</h1>
+                            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escribe tus comentarios"></textarea>
+                            <br>
+                            <br>
+                            <input type="submit" value="Enviar información">
+                            <input type="reset" id="Limpiar">
+                        </p>
+                    </b>
+                </form>
+            </center>
+        </section>
+    </div>
+
+    <footer>
+        <h2>Todos los derechos reservados | Brian Rios</h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 
+  .formularioProductos input{
+    width: 60%;
+    border-radius: 10px;
+    border-color: aqua;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .formularioProductos{
+      height: auto;
+      width: 600px;
+      background-color: rgb(21, 172, 231);
+      border-radius: 1em;
+      border: 5px solid cyan;
+  }
+
+  .pestañaAdmin button{
+    width: 10%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 1em;
+  }
+  
+  .pestañaAdmin button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+
+
+  .formularioProductos label{
+    font-size: 20px;
+  }
+  
+
+  .campo2{
+    background-color: #ddd1eb;
+    margin: 1% auto;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+   
+  }
+
+  .campo2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .campo2 p{
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+  }
+
+  .campo2 img{
+    width: 50%;
+    height: 200px;
+    margin: 5px;
+    box-shadow: 0px 0px 20px #263944;
+  }
+
+  .campo2 b{
+    color: #000000;
+  }
+  body {
+    
+    font-family: Arial;
+    background-image: url(/img/fondo2.png);
+  }
+
+
+  h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px #4163bf;
+  }
+
+.imagenEmpresaL{
+    width: 300px;
+    height: 300px;
+    border-radius: 20em;
+    border: 10px solid rgb(2, 1, 2);
+    box-shadow: 0px 0px 30px rgb(204, 157, 243);   
+}
+  
+  .form-login {
+    width: 400px;
+    height: 380px;
+    background: #787676;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 5px 10px 10px #4e4949;
+    padding: 20px 30px;
+    border-top: 4px solid #1053a0;
+    color: white;
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid #0c64a7;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: #2567b3;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 16px;
+  }
+  
+  .form-login p{
+    
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+
+.encabezadoAdmin{
+  height: 450px;
+}
+.encabezadoAdmin h1{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1000px){
+  .pestañaAdmin button{
+    width: 15%;
+    height: 40px;
+    font-size: 11px;
+    border-radius: 1em;
+    
+  }
+  .campo2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 50%;
+    font-size: 11px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .form-login{
+      width: 50%;
+      height: 50%;
+  }
+
+  .imagenEmpresa{
+    width: 50%;
+    height: 50%;
+  }
+
+  .encabezadoAdmin{
+    font-size: 1px;
+  }
+  .pestañaAdmin h2{
+    font-size: 30px;
+  }
+}
